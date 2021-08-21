@@ -27,7 +27,7 @@ function listener(number, id, costId) {
 /* ---------------eventListener end here----------------- */
 
 listener(0, 'default-memory-price', memoryExtraCost)
-listener(80, 'memory-extra-price', memoryExtraCost)
+listener(180, 'memory-extra-price', memoryExtraCost)
 listener(0, 'default-storage-price', defaultStorageCost)
 listener(100, '512gb-extra-price', defaultStorageCost)
 listener(180, '1tb-extra-price', defaultStorageCost)
